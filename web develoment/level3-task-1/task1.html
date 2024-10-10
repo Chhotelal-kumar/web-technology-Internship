@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Image Gallery</h1>
+  <div class="gallery">
+    <img src="https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png" alt="Image 1" onclick="openModal(this)">
+    <img src=" https://freelancervietnam.vn/wp-content/uploads/2019/10/avatar.jpg" alt="Image 2"
+      onclick="openModal(this)">
+    <img src="https://www.freecodecamp.org/news/content/images/size/w2000/2023/04/JavaScript-Blog-Cover.png"
+      alt="Image 3" onclick="openModal(this)">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShYH1dFKeppuUGUCBxYs8IW8GMJk554vDPLA&s"
+      alt="Image 4" onclick="openModal(this)">
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <img id="modalImg" src="">
+  </div>
+
+
+  <h1>Image Slideshow</h1>
+  <div class="slideshow-container">
+    <div class="slides">
+      <img src="https://austingil.com/wp-content/uploads/HTML-Blog-Cover.png" alt="Image 1">
+      <img src="https://freelancervietnam.vn/wp-content/uploads/2019/10/avatar.jpg" alt="Image 2">
+      <img src="https://www.freecodecamp.org/news/content/images/size/w2000/2023/04/JavaScript-Blog-Cover.png"
+        alt="Image 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShYH1dFKeppuUGUCBxYs8IW8GMJk554vDPLA&s"
+        alt="Image 4">
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
